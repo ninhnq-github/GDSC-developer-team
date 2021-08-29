@@ -1,6 +1,6 @@
 # HCMUTE GDSC Developer [JÂV Team]
-### @This respository is official resource of our team
-### @Our vision is make software products for *social business* 
+### @ This respository is official resource of our team
+### @ Our vision is make software products for *social business* 
 ## **We are**
 >1. Nguyen Quoc Ninh, (ninhnq) senior at  IT in HCMUTE, Team leader, ninhnguyendx779@gmail.com
 >2. Nguyen Minh Duc, Junior at IT in HCMUTE, Front-end Developer, ducnhoxlatui@gmail.com
