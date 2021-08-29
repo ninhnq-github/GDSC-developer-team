@@ -1,0 +1,8 @@
+ninhnq/app/Hello_App/HelloApplication.java
+ ninhnq.app.Hello_App.HelloApplication
+ninhnq/app/Hello_App/HelloServlet.java
+ ninhnq.app.Hello_App.HelloServlet
+ninhnq/app/Hello_App/HelloResource.java
+ ninhnq.app.Hello_App.HelloResource
+ninhnq/app/Hello_App/NinhServlet.java
+ ninhnq.app.Hello_App.NinhServlet
