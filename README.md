@@ -31,8 +31,12 @@
 >* Implement Hosting: Google Cloud
 ## Progress report 
 >* Aug 29, 2021: Declare project vision, mission and configuration
->* Sep 5, 2021 : Build project requirements (usecase)
->* Sep 12, 2021: Build project Data schema (ERD and Mockup design
+>* Sep 05, 2021: Build project requirements (Customer Specification)
+>* Sep 12, 2021: Build project technical documents (Usecase)
+>* Sep 19, 2021: Build project technical documents (Scenario)
+>* Sep 26, 2021: System design (Mockup design and Sequences diagram)
+>* Oct 03, 2021: System design (Wireframe design and ERD diagram, Class diagram)
+>* Oct 10, 2021: Build User Module (Log in, Sign up, Sign out, Forgot passowrd)
 >* ... Updating
 
 
