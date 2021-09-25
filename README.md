@@ -34,6 +34,7 @@
 >* Dev/Test Hosting: Heroku hosting
 >* Implement Hosting: Google Cloud
 >* Dev framework: Agile - Scrum 
+>* Team management: Trello
 
 ## Progress report 
 >* Aug 29, 2021: Declare project vision, mission and configuration
