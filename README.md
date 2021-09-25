@@ -11,28 +11,39 @@
 >7. Hoang Minh Thang, Junior at IT in HMCUTE, developer, minhhoangthang75@gmail.com
 
 ## Project 1: Eportfolio (Sep 2021 - Feb 2022)
+
 ### Project Vision
 >* Make the revolution which could make your change your mind about "What did you do?"
 >* Help every students to build their personal brand
 >* Which could help student to implement philosophy "Humanity - Innovation - Intergration" 
+
 ### Project Mission
 >* Create where you can plan, do, reflect what did you do
 >* An E-profile which could be exported as a résume  
 >* Whrere the company can find everythings about you
 >* Where you can learn, can share and make friends
 >* Where you can do everythings above with one click* 
+
 ### Project Configuration
 >* Type: Web application 
 >* FE/BE framework: React.js / Spring
+>* Architecture: RESTFUL
 >* Lang: Java (JDK 16) 
 >* Database: PostgreSQL
 >* Build system: Gradle 
 >* Dev/Test Hosting: Heroku hosting
 >* Implement Hosting: Google Cloud
+>* Dev framework: Agile - Scrum 
+>* Team management: Trello
+
 ## Progress report 
 >* Aug 29, 2021: Declare project vision, mission and configuration
->* Sep 5, 2021 : Build project requirements (usecase)
->* Sep 12, 2021: Build project Data schema (ERD and Mockup design
+>* Sep 05, 2021: Build project requirements (Customer Specification)
+>* Sep 12, 2021: Build project technical documents (Usecase)
+>* Sep 19, 2021: Build project technical documents (Scenario)
+>* Sep 26, 2021: System design (Mockup design and Sequences diagram)
+>* Oct 03, 2021: System design (Wireframe design and ERD diagram, Class diagram)
+>* Oct 10, 2021: Build User Module (Log in, Sign up, Sign out, Forgot passowrd)
 >* ... Updating
 
 
