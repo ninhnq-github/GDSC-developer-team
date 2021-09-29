@@ -1,0 +1,38 @@
+
+m
+java:S3008"WRename this field "USER_ACCOUNT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾…•ô
+n
+java:S3008	"XRename this field "USER_PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë¡ž±
+j
+java:S3008
+"TRename this field "USER_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûãÍŠ
+n
+java:S3008"SRename this field "USER_AGE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(þÊ’ôúÿÿÿÿ
+k
+java:S3008"URename this field "USER_MAJOR" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö™ãµ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(âùü˜
+n
+java:S1104"XMake USER_ACCOUNT a static final constant or non-public and provide accessors if needed.(¾…•ô
+o
+java:S1104	"YMake USER_PASSWORD a static final constant or non-public and provide accessors if needed.(Ë¡ž±
+k
+java:S1104
+"UMake USER_NAME a static final constant or non-public and provide accessors if needed.(ûãÍŠ
+o
+java:S1104"TMake USER_AGE a static final constant or non-public and provide accessors if needed.(þÊ’ôúÿÿÿÿ
+l
+java:S1104"VMake USER_MAJOR a static final constant or non-public and provide accessors if needed.(ö™ãµ
+H
+java:S1444"2Make this "public static USER_ACCOUNT" field final(¾…•ô
+I
+java:S1444	"3Make this "public static USER_PASSWORD" field final(Ë¡ž±
+E
+java:S1444
+"/Make this "public static USER_NAME" field final(ûãÍŠ
+I
+java:S1444".Make this "public static USER_AGE" field final(þÊ’ôúÿÿÿÿ
+F
+java:S1444"0Make this "public static USER_MAJOR" field final(ö™ãµ
+0
+java:S1220""Move this file to a named package.
