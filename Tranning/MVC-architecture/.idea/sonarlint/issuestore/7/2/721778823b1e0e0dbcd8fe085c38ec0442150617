@@ -1,0 +1,15 @@
+
+k
+java:S3008"PRename this field "_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰Àìüÿÿÿÿ
+j
+java:S3008"TRename this field "_password" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ì¦Î
+<
+java:S1659"&Declare "password" on a separate line.(¾ÃÖı
+l
+java:S1104"QMake _name a static final constant or non-public and provide accessors if needed.(‰Àìüÿÿÿÿ
+k
+java:S1104"UMake _password a static final constant or non-public and provide accessors if needed.(„ì¦Î
+F
+java:S1444"+Make this "public static _name" field final(‰Àìüÿÿÿÿ
+E
+java:S1444"/Make this "public static _password" field final(„ì¦Î
