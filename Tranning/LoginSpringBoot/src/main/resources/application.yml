@@ -1,0 +1,36 @@
+server:
+    error:
+        include-binding-errors: always
+        include-message: always
+spring:
+    datasource:
+        password: 123456
+        url: jdbc:postgresql://localhost:5432/registration
+        username: postgres
+    jpa:
+        hibernate:
+            ddl-auto: create-drop
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.PostgreSQLDialect
+                format_sql: true
+        show-sql: true
+    mail:
+        host: localhost
+        password: hello
+        port: 1025
+        properties:
+            mail:
+                smtp:
+                    auth: true
+                    connectiontimeout: 5000
+                    ssl:
+                        trust: '*'
+                    starttls:
+                        enable: true
+                    timeout: 3000
+                    writetimeout: 5000
+        username: hello
+    thymeleaf:
+        cache: false
+        prefix: file:src/main/resources/templates/
