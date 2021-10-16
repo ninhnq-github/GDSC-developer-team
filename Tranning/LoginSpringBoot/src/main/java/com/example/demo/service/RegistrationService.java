@@ -46,7 +46,7 @@ public class RegistrationService {
   }
 
   public String register (AppUser appUser){
-    appUser.setAppUserRole(AppUserRole.USER);
+//    appUser.setAppUserRole(AppUserRole.USER);
 
     //Lay token de gan vao confirmation URL
     String token =  appUserService.signUpUser(appUser);

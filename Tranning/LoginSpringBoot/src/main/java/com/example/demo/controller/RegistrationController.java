@@ -1,6 +1,7 @@
 package com.example.demo.controller;
 
 import com.example.demo.entity.AppUser;
+import com.example.demo.entity.AppUserRole;
 import com.example.demo.service.RegistrationService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Controller;
@@ -26,6 +27,7 @@ public class RegistrationController {
 
   @PostMapping
   public String register(AppUser appUser) {
+
     registrationService.register(appUser);
     return "confirmmailrequest";
   }

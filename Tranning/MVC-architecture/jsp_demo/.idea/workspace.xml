@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="a63e2148-9713-402e-9eea-da28fdb709d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../../Documents/prj_sequence/Tong-SequencDiagram-EA.eapx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Documents/prj_sequence/Tong-SequencDiagram-EA.eapx" afterDir="false" />
     </list>
+=======
+    <list default="true" id="045f7d45-f977-4862-8934-ed30f01faa79" name="Changes" comment="" />
+>>>>>>> ca79909d45277e3423a48f28f24913a29669a00b
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,7 +16,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
+<<<<<<< HEAD
   <component name="ProjectId" id="1zGIdRYa0I5HrncaC2MEDJFnyB1" />
+=======
+  <component name="ProjectId" id="1yot0YNqWIwOXyL53DevAG21Xii" />
+>>>>>>> ca79909d45277e3423a48f28f24913a29669a00b
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,11 +30,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="aspect.path.notification.shown" value="true" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../LapTrinhWebProjectRepository/example_jsp" />
+>>>>>>> ca79909d45277e3423a48f28f24913a29669a00b
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="a63e2148-9713-402e-9eea-da28fdb709d5" name="Default Changelist" comment="" />
       <created>1633768094387</created>
       <option name="number" value="Default" />
@@ -36,4 +49,19 @@
     </task>
     <servers />
   </component>
+=======
+      <changelist id="045f7d45-f977-4862-8934-ed30f01faa79" name="Changes" comment="" />
+      <created>1632929943317</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632929943317</updated>
+      <workItem from="1632929945592" duration="17000" />
+      <workItem from="1632930224282" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+>>>>>>> ca79909d45277e3423a48f28f24913a29669a00b
 </project>
