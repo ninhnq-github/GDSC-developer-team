@@ -1,3 +1,8 @@
+application:
+    jwt:
+        secretKey: metvlmetvlmetvlmetvlmetvlmetvlmetvlmetvlmetvlmetvlmetvlmetvlmetvlmetvlmetvlmetvl
+        tokenExpirationAfterDays: 10
+        tokenPrefix: 'Bearer '
 server:
     error:
         include-binding-errors: always

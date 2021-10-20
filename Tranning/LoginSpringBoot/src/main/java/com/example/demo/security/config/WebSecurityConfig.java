@@ -4,7 +4,11 @@ package com.example.demo.security.config;
 import static com.example.demo.entity.AppUserRole.ADMIN;
 import static com.example.demo.entity.AppUserRole.USER;
 
+import com.example.demo.jwt.JwtConfig;
+import com.example.demo.jwt.JwtTokenVerifier;
+import com.example.demo.jwt.JwtUsernameAndPasswordAuthenticationFilter;
 import com.example.demo.service.AppUserService;
+import javax.crypto.SecretKey;
 import javax.sql.DataSource;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
@@ -15,6 +19,7 @@ import org.springframework.security.config.annotation.method.configuration.Enabl
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.web.authentication.rememberme.JdbcTokenRepositoryImpl;
 import org.springframework.security.web.authentication.rememberme.PersistentTokenRepository;
@@ -28,6 +33,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
   private final AppUserService appUserService;
   private final BCryptPasswordEncoder bCryptPasswordEncoder;
+  private final SecretKey secretKey;
+  private final JwtConfig jwtConfig;
+
   private DataSource dataSource;
 
   @Override
@@ -35,20 +43,26 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     http
         .csrf().disable()
+        .sessionManagement()
+        .sessionCreationPolicy(SessionCreationPolicy.STATELESS)
+        .and()
+        .addFilter(new JwtUsernameAndPasswordAuthenticationFilter(authenticationManager(), jwtConfig, secretKey))
+        .addFilterAfter(new JwtTokenVerifier(secretKey, jwtConfig),JwtUsernameAndPasswordAuthenticationFilter.class)
         .authorizeRequests()
         .antMatchers("/css/**","/fonts/**","/images/**","/js/**","/scss/**","/vendor.jquery/**").permitAll()
         .antMatchers("/registration/**").permitAll()
         .antMatchers("/home").hasRole(USER.name())
         .antMatchers("/admin").hasRole(ADMIN.name())
         .anyRequest()
-        .authenticated()
-        .and()
-        .formLogin()
-            .loginPage("/login")
-            .permitAll()
-            .defaultSuccessUrl("/home",true)
-            .usernameParameter("username")
-            .passwordParameter("password");
+        .authenticated();
+
+//        .and()
+//        .formLogin()
+//            .loginPage("/login")
+//            .permitAll();
+//            .defaultSuccessUrl("/home",true);
+//            .usernameParameter("username")
+//            .passwordParameter("password");
   }
 
   @Override
